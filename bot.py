@@ -6,6 +6,7 @@ from datetime import time
 import pytz
 
 # Конфигурация
+
 TOKEN = "7843232490:AAFVQx20mngb8X63kWAAUyF1O4JrNwF_nyw"
 OWM_API_KEY = "459d6e47fe64424ccfaafade5576c2e1"
 VLADIKAVKAZ_LAT = 43.0367
