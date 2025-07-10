@@ -65,7 +65,7 @@ class WeatherBot:
             return (
                 f"Доброе утро!👋\n\n"
                 f"Сейчас во Владикавказе: {weather_desc.capitalize()} {emoji}\n"
-                f"🌡 Температура: {round(temp)}°C (мин {round(temp_min)}°C, макс {round(temp_max)}°C)\n"
+                f"🌡 Температура: {round(temp)}°C )\n" #(мин {round(temp_min)}°C, макс {round(temp_max)}°C
                 f"💨 Ветер: {data.get('wind', {}).get('speed', 'N/A')} м/с\n\n"
                 f"Хорошего дня! ☕"
             )
